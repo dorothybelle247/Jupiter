@@ -1,3 +1,77 @@
-h1{
-    color blue;
+body {
+    background-color: grey;
+}
+header{
+    margin:25px;
+    background-color: whitesmoke;
+    
+    min-height:10vh;
+    
+}
+
+
+
+nav{
+    display: block;
+    margin:25px;
+    padding:1%;
+    background-color: whitesmoke;
+    text-align: center;
+   
+    position: static;
+    margin-top:-20px;
+
+
+
+}
+section{
+    margin-bottom: 15%;
+}
+a {
+color: #5945B5;
+}
+ #text{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    padding: 25px;
+    margin-left:2%;
+    float: left;
+   background-color: whitesmoke;
+   min-height:40vh;
+    
+   
+}
+
+article{
+    background-color: grey;
+}
+
+
+
+
+aside{
+    display: inline-block;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 35%;
+    height: 50%;
+    padding: 25px;
+    border-right: 0px;
+    font-size: 1.1em;
+    min-height:40vh;
+    margin-left: 4%;
+ }
+
+footer{
+margin:25px;
+background: whitesmoke;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 96%;
+text-align: center;
+height: 15%;
 }
